@@ -1,10 +1,10 @@
-
-# XplainableAI Binary Generation Project
+# Enabling Obfuscation Detection in Binary Software Using Xplainable AI
 
 ## Overview
 
-Welcome to the XplainableAI Binary Generation Project! This project focuses on generating sets of binaries using GCC versions 8,9 and 10 and optimization levels of 0, 1, 2 and 3. 
-These binaries are used to enable obfuscation detection in binary software through Explainable AI (XAI). The source code for these binaries comes from dummy C files sourced from various tutorial repositories.
+Welcome to the XplainableAI Binary Generation Project! This project focuses on generating sets of binaries using GCC versions 8, 9, and 10 and optimization levels of 0, 1, 2, and 3. 
+These binaries are used to enable obfuscation detection in binary software through Explainable AI (XAI). The source code for these binaries comes from dummy C files sourced from various tutorial repositories. 
+This is the binary dataset generation stage of the research.
 
 ## Project Goals
 
@@ -47,6 +47,7 @@ XplainableAI/
 │       ├── level3_op/
 │       └── (hexdumps of each optimization level)
 └── compile_and_hexdump.sh (script to compile and generate hexdumps)
+
 
 Prerequisites
 Docker: Required to build and run the project in a containerized environment.
